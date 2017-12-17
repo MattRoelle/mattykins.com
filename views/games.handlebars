@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col-md-12">
+		<h1>Games</h1>
+		<hr />
+		{{#each content.games}}
+		<div class="game-preview" >
+			<a href="/game/{{this.id}}" class="game-screenshot" style="background-image: url('{{this.screenshot}}');"></a>
+			<p class="game-title">{{{this.title}}}</p>
+			<p class="game-released">Released: <b>{{this.releaseDate}}</b></p>
+			{{#if this.jam}}
+			<p class="game-event">Made for <b><a href="{{this.eventLink}}">{{this.eventType}}</a></b></p>
+			{{/if}}
+		</div>
+		{{/each}}
+	</div>
+</div>

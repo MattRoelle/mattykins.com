@@ -1,0 +1,35 @@
+{
+	"currentGame": "the-grape-escape",
+	"games": [
+		{
+			"id": "the-grape-escape",
+			"src": "http://the-grape-escape.mattykins.com",
+			"title": "The <span style='color: #a904e8;';>Grape</span> Escape",
+			"jam": "1 Game A Month",
+			"description": "You play as a grape named Barry, who's seemingly met his end at the dreaded <strong>Jam</strong> factory. But Barry doesn't go down easily. Escape the <strong>Jam</strong> Factory in this fast-paced platforming adventure",
+			"github": "https://github.com/Mattykins/1gam-dec-2017",
+			"eventType": "1 Game A Month",
+			"eventLink": "http://www.onegameamonth.com/",
+			"screenshot": "/assets/the-grape-escape.png",
+			"releaseDate": "December 2017",
+			"instructions": "Move with the arrow keys, jump with spacebar, and interact with Z",
+			"jam": true,
+			"theme": "Jam"
+		},
+		{
+			"id": "danger-noodle",
+			"src": "http://danger-noodle.mattykins.com",
+			"title": "Danger Noodle",
+			"jam": "Ludum Dare 40",
+			"description": "A snake inspired game where the longer you grow, the harder the game gets. Move with WASD or arrow keys and dash with spacebar or shift. Play 6 unique levels across 2 worlds.",
+			"github": "https://github.com/Mattykins/ld40",
+			"eventType": "Ludum Dare 40",
+			"eventLink": "https://ldjam.com/events/ludum-dare/40/danger-noodle",
+			"screenshot": "/assets/danger-noodle.png",
+			"releaseDate": "December 2017",
+			"instructions": "Move with WASD or Arrow Keys. Dash with Spacebar or Shift",
+			"jam": true,
+			"theme": ""
+		}
+	]
+}

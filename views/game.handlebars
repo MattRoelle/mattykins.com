@@ -1,0 +1,28 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="game-info">
+			<h1 id="game-title">{{{gameToLoad.title}}}</h1>
+		</div>
+		<div id="game-host">
+			<iframe allowFullscreen width='800' height='700' src='{{gameToLoad.src}}' scrolling='no'></iframe>
+		</div>
+		<div class="game-info">
+			<div class="row">
+				<div class="col-md-9">
+					<p>Released: <strong id="game-released"></strong></p>
+					<p id="game-description">{{{ gameToLoad.description}}}</p>
+					<p id="game-instructions">{{{ gameToLoad.instructions}}}</p>
+				</div>
+				<div class="col-md-3">
+					<a id="github-link" class="game-link github clearfix" target="_blank" href="{{gameToLoad.github}}">
+						<img src="/assets/GitHub-Mark-Light-32px.png" />
+						<span>Source Code</span>
+					</a>
+					<a id="event-link" class="game-link event clearfix" target="_blank" href="{{gameToLoad.eventLink}}">
+						<span id="event-type">{{gameToLoad.eventType}}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

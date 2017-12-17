@@ -1,0 +1,67 @@
+<div class="row main-content">
+	<div class="col-md-8">
+		<h1>What I do</h1>
+		<hr />
+		<div class="content">
+			<p>I make free, open-source video games while people watch!</p>
+			<p>In 2018 I will be participating in every <a href="http://www.onegameamonth.com/" target="_blank">1 Game A Month</a> jam, as well as every <a href="http://ldjam.com/" target="_blank">Ludum Dare</a> jam. In total, this should amount to 15 or 16 games (depending on how many Ludum Dares run this year). I will be streaming <b>all</b> of the development on Twitch as well as uploading Youtube videos detailing the development of each of these games. You can play all of the games for free <a href="/games">here</a>!</p>
+		</div>
+		<h3>Current Project</h3>
+		<hr />
+		<div class="row">
+			<div class="col-md-8">
+				<div class="content">
+					<h5>{{{currentGame.title}}}</h5>
+					{{#if currentGame.jam}}
+					<p><a target="_blank" href="{{currentGame.eventLink}}">{{currentGame.eventType}}</a> - Theme: <b>{{currentGame.theme}}</b></p>
+					{{/if}}
+					<p>{{{ currentGame.description}}}</p>
+					<p><a href="/game/{{content.currentGame}}">Play Here</a></p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<a href="/game/{{content.currentGame}}"><img class="screenshot" src="{{currentGame.screenshot}}" /></a>
+			</div>
+		</div>
+		<h3>Recent Games</h3>
+		<hr />
+		<div class="row">
+			<div class="col-md-12 recent-games">
+				{{#each recentGames}}
+				<div class="game-preview" >
+					<a href="/game/{{this.id}}" class="game-screenshot" style="background-image: url('{{this.screenshot}}');"></a>
+					<p class="game-title">{{{this.title}}}</p>
+					<p class="game-released">Released: <b>{{this.releaseDate}}</b></p>
+					{{#if this.jam}}
+					<p class="game-event">Made for <b><a href="{{this.eventLink}}">{{this.eventType}}</a></b></p>
+					{{/if}}
+				</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 social">
+		<h5>Watch me</h5>
+		<hr />
+		<img width="32px" style="position: absolute; left: -40px;" src="./assets/Glitch_Purple_RGB.svg" />
+		<div id="twitch-embed"></div>
+		<h5>Follow me</h5>
+		<hr />
+		<img width="42px" style="position: absolute; left: -40px;" src="./assets/Twitter_Logo_Blue.svg" />
+		<a class="twitter-timeline" href="https://twitter.com/mattyk1ns?ref_src=twsrc%5Etfw">Tweets by mattyk1ns</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+<script type="text/javascript">
+	new Twitch.Embed("twitch-embed", {
+		width: 300,
+		height: 169,
+		channel: "mattyk1ns",
+		layout: "video",
+		autoplay: false
+	});
+</script>
