@@ -1,12 +1,27 @@
 {
-	"currentGame": "the-grape-escape",
+	"currentGame": "none",
 	"games": [
+		{
+			"id": "starhunter",
+			"src": "http://starhunter.mattykins.com",
+			"title": "StarHunter",
+			"jam": "OMGJam3",
+			"description": "Play as an alien bounty hunter. Kill all the enemies in a given wave to progress, and buy upgrades in between waves. Survive for as long as you can.",
+			"github": "https://github.com/Mattykins/omgjam3",
+			"eventType": "OMGJAM3",
+			"eventLink": "https://itch.io/jam/omgjam3",
+			"screenshot": "/assets/starhunter.png",
+			"releaseDate": "February 2018",
+			"instructions": "Arrow keys or WASD to move, spacebar to shoot ",
+			"jam": true,
+			"theme": "Capitalism"
+		},
 		{
 			"id": "the-grape-escape",
 			"src": "http://the-grape-escape.mattykins.com",
-			"title": "The <span style='color: #a904e8;';>Grape</span> Escape",
+			"title": "The <span style='color: #a904e8;';>Grape</span> Escape <b>DEMO</b>",
 			"jam": "1 Game A Month",
-			"description": "You play as a grape named Barry, who's seemingly met his end at the dreaded <strong>Jam</strong> factory. But Barry doesn't go down easily. Escape the <strong>Jam</strong> Factory in this fast-paced platforming adventure",
+			"description": "You play as a grape named Barry, who's seemingly met his end at the dreaded <strong>Jam</strong> factory. But Barry doesn't go down easily. Escape the <strong>Jam</strong> Factory in this fast-paced platforming adventure. Full version releasing on Steam later this year!",
 			"github": "https://github.com/Mattykins/1gam-dec-2017",
 			"eventType": "1 Game A Month",
 			"eventLink": "http://www.onegameamonth.com/",

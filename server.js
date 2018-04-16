@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const content = JSON.parse(fs.readFileSync("./content.json"));
 const currentGame = content.games.filter(g => g.id == content.currentGame)[0];
-const recentGames = content.games.filter((g, i) => g.id != content.currentGame && i < 3);
+const recentGames = content.games.filter((g, i) => g.id != content.currentGame && i <= 3);
 
 const app = express();
 
@@ -40,7 +40,6 @@ app.get("/", (req, res) => {
 
 app.get("/game/:gameId", (req, res) => {
 	const gameToLoad = content.games.filter(g => g.id == req.params.gameId)[0];
-	console.log(gameToLoad);
 	res.render("game", {
 		content: content,
 		currentGame: currentGame,
