@@ -2,8 +2,23 @@
 	"currentGame": "none",
 	"games": [
 		{
+			"id": "puck-off",
+			"src": "https://puck-off.mattykins.com",
+			"title": "Puck Off",
+			"jam": "Ludum Dare 41",
+			"description": "A turn based ice hockey game made for Ludum Dare 41. Supports single and multi-player",
+			"github": "https://github.com/Mattykins/ld41",
+			"eventType": "Ludum Dare 41",
+			"eventLink": "https://itch.io/jam/omgjam3",
+			"screenshot": "/assets/puck-off.png",
+			"releaseDate": "April 2018",
+			"instructions": "Click your players and click again to set their movement. Hit 'End Turn' when you're done. Use arrow-keys/wasd to pan the screen, or move the mouse to the edges.",
+			"jam": true,
+			"theme": "Combine 2 incompatible genres"
+		},
+		{
 			"id": "starhunter",
-			"src": "http://starhunter.mattykins.com",
+			"src": "https://starhunter.mattykins.com",
 			"title": "StarHunter",
 			"jam": "OMGJam3",
 			"description": "Play as an alien bounty hunter. Kill all the enemies in a given wave to progress, and buy upgrades in between waves. Survive for as long as you can.",
@@ -18,7 +33,7 @@
 		},
 		{
 			"id": "the-grape-escape",
-			"src": "http://the-grape-escape.mattykins.com",
+			"src": "https://the-grape-escape.mattykins.com",
 			"title": "The <span style='color: #a904e8;';>Grape</span> Escape <b>DEMO</b>",
 			"jam": "1 Game A Month",
 			"description": "You play as a grape named Barry, who's seemingly met his end at the dreaded <strong>Jam</strong> factory. But Barry doesn't go down easily. Escape the <strong>Jam</strong> Factory in this fast-paced platforming adventure. Full version releasing on Steam later this year!",
@@ -33,7 +48,7 @@
 		},
 		{
 			"id": "danger-noodle",
-			"src": "http://danger-noodle.mattykins.com",
+			"src": "https://danger-noodle.mattykins.com",
 			"title": "Danger Noodle",
 			"jam": "Ludum Dare 40",
 			"description": "A snake inspired game where the longer you grow, the harder the game gets. Move with WASD or arrow keys and dash with spacebar or shift. Play 6 unique levels across 2 worlds.",
