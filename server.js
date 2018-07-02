@@ -46,6 +46,7 @@ app.get("/game/:gameId", (req, res) => {
 		activeRoute: "games",
 		gameToLoad: gameToLoad,
 		layout: "main",
+		height: gameToLoad.id == "danger-noodle" ? 700 : 600
 	});
 });
 

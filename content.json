@@ -2,6 +2,21 @@
 	"currentGame": "none",
 	"games": [
 		{
+			"id": "stirfly",
+			"src": "https://soup.mattykins.com",
+			"title": "Stir Fly",
+			"jam": "OMGJAM 4",
+			"description": "Play as a chef working for an extreme soup delivery service. Game made for the OMGJAM 4",
+			"github": "https://github.com/Mattykins/omgjam4",
+			"eventType": "OMGJAM 4",
+			"eventLink": "https://itch.io/jam/omgjam4",
+			"screenshot": "/assets/stirfly.png",
+			"releaseDate": "June 2018",
+			"instructions": "Collect as much food as possible before landing. Avoid bad foods and prioritize good ones!",
+			"jam": true,
+			"theme": "Gravity / Food"
+		},
+		{
 			"id": "puck-off",
 			"src": "https://puck-off.mattykins.com",
 			"title": "Puck Off",
