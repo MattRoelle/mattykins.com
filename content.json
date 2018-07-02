@@ -24,7 +24,7 @@
 			"description": "A turn based ice hockey game made for Ludum Dare 41. Supports single and multi-player",
 			"github": "https://github.com/Mattykins/ld41",
 			"eventType": "Ludum Dare 41",
-			"eventLink": "https://itch.io/jam/omgjam3",
+			"eventLink": "https://ldjam.com/events/ludum-dare/41",
 			"screenshot": "/assets/puck-off.png",
 			"releaseDate": "April 2018",
 			"instructions": "Click your players and click again to set their movement. Hit 'End Turn' when you're done. Use arrow-keys/wasd to pan the screen, or move the mouse to the edges.",
