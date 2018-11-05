@@ -2,6 +2,21 @@
 	"currentGame": "none",
 	"games": [
 		{
+			"id": "rocketracer",
+			"src": "https://omgjam5.mattykins.com",
+			"title": "ROCKet Racer",
+			"jam": "OMGJAM 5",
+			"description": "The newest extreme sport for rich people with too much time and moeny. Try to race your rocket-powered-rock down the hill faster than the opponents!",
+			"github": "https://github.com/Mattykins/omgjam5",
+			"eventType": "OMGJAM 5",
+			"eventLink": "https://itch.io/jam/omgjam5",
+			"screenshot": "/assets/rocketracer.png",
+			"releaseDate": "November 2018",
+			"instructions": "Arrow keys to steer, up to jump, and spacebar to boost.",
+			"jam": true,
+			"theme": "Rock and Roll"
+		},
+		{
 			"id": "stirfly",
 			"src": "https://soup.mattykins.com",
 			"title": "Stir Fly",
