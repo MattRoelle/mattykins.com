@@ -2,9 +2,9 @@
 	"currentGame": "none",
 	"games": [
 		{
-			"id": "rocketracer",
+			"id": "rocketracing",
 			"src": "https://omgjam5.mattykins.com",
-			"title": "ROCKet Racer",
+			"title": "ROCKet Racing",
 			"jam": "OMGJAM 5",
 			"description": "The newest extreme sport for rich people with too much time and moeny. Try to race your rocket-powered-rock down the hill faster than the opponents!",
 			"github": "https://github.com/Mattykins/omgjam5",
