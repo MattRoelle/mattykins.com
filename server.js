@@ -46,7 +46,8 @@ app.get("/game/:gameId", (req, res) => {
 		activeRoute: "games",
 		gameToLoad: gameToLoad,
 		layout: "main",
-		height: gameToLoad.id == "danger-noodle" ? 700 : 600
+		width: gameToLoad.id == "smashtec" ? 960 : 800,
+		height: gameToLoad.id == "danger-noodle" ? 700 : gameToLoad.id == "smashtec" ? 540 : 600
 	});
 });
 

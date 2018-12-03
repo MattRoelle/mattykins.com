@@ -2,6 +2,21 @@
 	"currentGame": "none",
 	"games": [
 		{
+			"id": "smashtec",
+			"src": "https://ld43.mattykins.com",
+			"title": "SMASHTEC",
+			"jam": "ld43",
+			"description": "ldjam.com",
+			"github": "https://github.com/Mattykins/ld43",
+			"eventType": "Ludum Dare 43",
+			"eventLink": "https://ldjam.com",
+			"screenshot": "/assets/smashtec.png",
+			"releaseDate": "December 2018",
+			"instructions": "Arrows keys or WASD to move. ",
+			"jam": true,
+			"theme": "Sacrifices must be made"
+		},
+		{
 			"id": "rocketracing",
 			"src": "https://omgjam5.mattykins.com",
 			"title": "ROCKet Racing",

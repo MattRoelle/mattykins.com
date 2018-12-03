@@ -4,7 +4,7 @@
 			<h1 id="game-title">{{{gameToLoad.title}}}</h1>
 		</div>
 		<div id="game-host">
-			<iframe allowFullscreen width='800' height='{{height}}' src='{{gameToLoad.src}}' scrolling='no'></iframe>
+			<iframe id="gameiframe" allowFullscreen width='{{width}}' height='{{height}}' src='{{gameToLoad.src}}' scrolling='no'></iframe>
 		</div>
 		<div class="game-info">
 			<div class="row">
@@ -14,6 +14,9 @@
 					<p id="game-instructions">{{{ gameToLoad.instructions}}}</p>
 				</div>
 				<div class="col-md-3">
+					<a id="fullscreen-btn" class="game-link  github clearfix">
+						<span id="event-type">Full Screen</span>
+					</a>
 					<a id="github-link" class="game-link github clearfix" target="_blank" href="{{gameToLoad.github}}">
 						<img src="/assets/GitHub-Mark-Light-32px.png" />
 						<span>Source Code</span>
@@ -26,3 +29,16 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	document.getElementById("fullscreen-btn").addEventListener("click", (ev) => {
+		ev.preventDefault();
+		if (gameiframe.webkitRequestFullscreen) {
+			gameiframe.webkitRequestFullscreen();
+		} else if (gameiframe.mozRequestFullScreen) {
+			gameiframe.mozRequestFullScreen();
+		} else if (gameiframe.requestFullscreen) {
+			gameiframe.requestFullscreen();
+		}
+	});
+</script>
